@@ -1,0 +1,5 @@
+model_name,train_mae_min,test_mae_min,test_rmse_min,test_r2,within_5min_pct,within_10min_pct,fit_time_sec
+LightGBM,9.08,10.31,13.91,0.3701,32.66,60.08,2.87
+HistGradientBoosting,9.09,10.35,13.97,0.3648,32.32,59.82,4.44
+Random Forest,7.41,10.45,14.04,0.358,31.61,59.14,9.01
+Ridge (Baseline),10.21,10.72,14.23,0.3403,30.33,57.2,0.14

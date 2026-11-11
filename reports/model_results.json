@@ -1,0 +1,55 @@
+{
+  "winner_model": "LightGBM",
+  "final_metrics": {
+    "model_name": "Tuned LightGBM (Config #3)",
+    "train_mae_min": 9.05,
+    "test_mae_min": 10.28,
+    "test_rmse_min": 13.89,
+    "test_r2": 0.3718,
+    "within_5min_pct": 32.7,
+    "within_10min_pct": 60.3,
+    "fit_time_sec": 6.63
+  },
+  "tournament_comparison": [
+    {
+      "model_name": "Ridge (Baseline)",
+      "train_mae_min": 10.21,
+      "test_mae_min": 10.72,
+      "test_rmse_min": 14.23,
+      "test_r2": 0.3403,
+      "within_5min_pct": 30.33,
+      "within_10min_pct": 57.2,
+      "fit_time_sec": 0.14
+    },
+    {
+      "model_name": "Random Forest",
+      "train_mae_min": 7.41,
+      "test_mae_min": 10.45,
+      "test_rmse_min": 14.04,
+      "test_r2": 0.358,
+      "within_5min_pct": 31.61,
+      "within_10min_pct": 59.14,
+      "fit_time_sec": 9.01
+    },
+    {
+      "model_name": "HistGradientBoosting",
+      "train_mae_min": 9.09,
+      "test_mae_min": 10.35,
+      "test_rmse_min": 13.97,
+      "test_r2": 0.3648,
+      "within_5min_pct": 32.32,
+      "within_10min_pct": 59.82,
+      "fit_time_sec": 4.44
+    },
+    {
+      "model_name": "LightGBM",
+      "train_mae_min": 9.08,
+      "test_mae_min": 10.31,
+      "test_rmse_min": 13.91,
+      "test_r2": 0.3701,
+      "within_5min_pct": 32.66,
+      "within_10min_pct": 60.08,
+      "fit_time_sec": 2.87
+    }
+  ]
+}
